@@ -1,0 +1,43 @@
+.content-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .column-1,
+  .column-2,
+  .column-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .vision-card {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .vision-card img {
+    max-width: 300%;
+    height: 300px;
+  }
+  
+  .role {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .vision-card h3 {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .content-grid {
+      flex-direction: column;
+    }
+  }
